@@ -7,6 +7,6 @@ spec:
   ports:
   - port: 80
     targetPort: 80
-    nodePort: 30011  # Specify the desired nodePort value here
+    nodePort: 30007  # Specify the desired nodePort value here
   selector:
     app: guestbook-ui
